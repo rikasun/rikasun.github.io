@@ -937,7 +937,10 @@
 
 	#header {
 		background-attachment:		scroll,							scroll,					fixed;
-		background-image:			url('images/top-3200.svg'),		url('images/overlay.png'),		url('../../images/header.jpg');
+		background-image:			url('images/top-3200.svg'),	linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),	url('images/overlay.png'),		url('../../images/header.jpg');
 		background-position:		bottom center,					top left,				center center;
 		background-repeat:			repeat-x,						repeat,					no-repeat;
 		background-size:			3200px 460px,					auto,					cover;
